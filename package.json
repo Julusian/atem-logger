@@ -1,0 +1,14 @@
+{
+  "name": "atem-logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:win": "yarn pkg -t node14-win main.js",
+    "build:linux": "yarn pkg -t node14-linux main.js"
+  },
+  "dependencies": {
+    "atem-connection": "^3.0.1",
+    "pkg": "^5.8.0"
+  }
+}
